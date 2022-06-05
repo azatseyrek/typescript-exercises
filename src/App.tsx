@@ -1,11 +1,12 @@
 import React from 'react'
-import {Button} from './components/Button'
+import { Button } from './components/Button'
 import Container from './components/Container'
 import Greet from './components/Greet'
 import Input from './components/Input'
 
 import Person from './components/Person'
 import PersonList from './components/PersonList'
+import { Counter } from './components/state/Counter'
 import LoggedIn from './components/state/LoggedIn'
 import Status from './components/Status'
 
@@ -47,9 +48,17 @@ function App() {
                     console.log(text, event, id)
                 }}
             />
-            <Container styles={{border: '1px solid black', padding: '1rem'}} />
+            <Container
+                styles={{ border: '1px solid black', padding: '1rem' }}
+            />
 
             <LoggedIn />
+            <br />
+            <br />
+            <br />
+            <br />
+
+            <Counter />
         </div>
     )
 }
