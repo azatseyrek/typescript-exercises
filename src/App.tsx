@@ -1,6 +1,8 @@
 import React from 'react'
 import { Button } from './components/Button'
 import Container from './components/Container'
+import Box from './components/context/Box'
+import { ThemeContextProvider } from './components/context/ThemeContext'
 import Greet from './components/Greet'
 import Input from './components/Input'
 
@@ -59,6 +61,10 @@ function App() {
             <br />
 
             <Counter />
+
+            <ThemeContextProvider>
+                <Box/>
+            </ThemeContextProvider>
         </div>
     )
 }
