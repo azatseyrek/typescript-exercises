@@ -1,0 +1,84 @@
+{
+  "gulp.autoDetect": "off",
+  "css.lint.unknownAtRules": "ignore",
+  "workbench.iconTheme": "vscode-icons",
+  "npm.runSilent": true,
+  "editor.snippetSuggestions": "top",
+  "javascript.validate.enable": false,
+  "editor.accessibilitySupport": "off",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "grunt.autoDetect": "off",
+  "prettier.requireConfig": true,
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.renderWhitespace": "boundary",
+  "breadcrumbs.enabled": true,
+  "editor.suggest.localityBonus": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "vsicons.dontShowNewVersionMessage": true,
+  "editor.smoothScrolling": true,
+  "files.defaultLanguage": "{activeEditorLanguage}",
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.formatOnSave": true,
+  "php.suggest.basic": false,
+  "workbench.colorTheme": "ReUI",
+  "eslint.options": {
+    "overrideConfig": {
+      "env": {
+        "es6": true
+      },
+      "parserOptions": {
+        "ecmaVersion": 2017
+      }
+    }
+  },
+  "editor.formatOnPaste": false,
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/dist": true,
+    "**/coverage": true,
+    "**/build": true,
+    "**/.build": true,
+    "**/.gh-pages": true
+  },
+  "editor.fontSize": 15,
+  "editor.acceptSuggestionOnCommitCharacter": false,
+
+  "files.associations": {
+    "*.jsx": "javascriptreact",
+    "*.js": "javascriptreact"
+  },
+  "editor.wordBasedSuggestions": false,
+  "bracketPairColorizer.depreciation-notice": false,
+  "stylelint.config": {},
+  "[javascriptreact]": {},
+  "editor.fontFamily": "'Dank Mono', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": false,
+  "editor.detectIndentation": true,
+  "explorer.confirmDragAndDrop": false,
+  "editor.rulers": [],
+  "editor.minimap.enabled": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": false
+  },
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "files.autoSave": "afterDelay",
+  "editor.language.brackets": [],
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true,
+  "bracket-pair-colorizer-2.excludedLanguages": [],
+
+  "settingsSync.ignoredExtensions": [],
+  "javascript.format.placeOpenBraceOnNewLineForControlBlocks": true,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false
+}
